@@ -1,0 +1,15 @@
+{
+  "dates": {
+    "maximum": "max",
+    "minimum": "min"
+  },
+  "page": 1,
+  "results": [
+    {
+      "title": "Inception"
+    },
+    {
+      "title": "Matrix"
+    }
+  ]
+}

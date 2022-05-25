@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/item_background"
+    android:padding="10dp">
+
+    <com.example.architecturesandbox.custom.view.CircularImageView
+        android:id="@+id/posterView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        tools:srcCompat="@drawable/background_round_green_solid"
+        app:srcCompat="@drawable/background_round_green_solid"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="Gladiator"
+        app:layout_constraintTop_toTopOf="@id/posterView"
+        app:layout_constraintBottom_toBottomOf="@id/posterView"
+        app:layout_constraintLeft_toRightOf="@id/posterView"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

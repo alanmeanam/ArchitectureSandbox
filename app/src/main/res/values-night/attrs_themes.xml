@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppThemes">
+        <attr name="background_corner_edittext" format="reference"/>
+        <attr name="backgroundtint_white_darkeight" format="reference"/>
+        <attr name="textcolor_darkgrey_white_background_edittext" format="reference"/>
+
+        <attr name="sds_background_corner_searchview" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="LoadingButton">
+        <attr name="text" format="string" />
+        <attr name="button_background_color" format="string" />
+    </declare-styleable>
+
+</resources>
